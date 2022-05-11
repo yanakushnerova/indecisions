@@ -1,0 +1,24 @@
+.widget {
+    background-color: $mercury;
+    margin-bottom: $xl-size;
+    border-radius: $m-radius;
+}
+
+.widget-header {
+    background-color: $dustyGray;
+    color: $christalle;
+    display: flex;
+    justify-content: space-around;
+    border-radius: $m-radius;
+    padding: 2rem 50px;
+    font-size: 18px;
+}
+
+.widget-header__title {
+    width: 65%;
+    text-align: left;
+    margin: 0;
+    color: $black;
+    font-weight: bold;
+    font-size: 18px;
+}

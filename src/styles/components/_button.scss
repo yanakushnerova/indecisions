@@ -1,0 +1,40 @@
+.big-button {
+    background-color: $purple;
+    color: $white;
+    border: none;
+    border-bottom: .3rem solid darken($color: $purple, $amount: 10%);
+    font-weight: bold;
+    font-size: $l-size;
+    margin-bottom: $xl-size;
+    padding: $m-size;
+    width: 100%;
+    border-radius: $m-radius;
+}
+
+.big-button:disabled {
+    opacity: 0.5;
+}
+
+.button {
+    background: $purple;
+    color: $mercury;
+    border: none;
+    border-bottom: .3rem solid darken($color: $purple, $amount: 10%);
+    padding: $s-size;
+    border-radius: $m-radius;
+    font-weight: bold;
+}
+
+.button--link {
+    background: none;
+    border: none;
+    padding: 0;
+    color: $christalle;
+    font-weight: bold;
+}
+
+.widget__message__error {
+    font-weight: bold;
+    color: $black;
+    font-size: 18px;
+}

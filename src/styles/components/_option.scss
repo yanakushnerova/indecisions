@@ -1,0 +1,15 @@
+.widget__message {
+    font-size: 18px;
+    font-weight: bold;
+    color: $christalle;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+.widget__message__option {
+    width: 70%;
+    word-break:break-all;
+    text-align: left;
+    color: $black;
+}

@@ -1,0 +1,15 @@
+.widget__form {
+    border-top: 1px solid $dustyGray;
+    padding: $s-size;
+    display: flex;
+    justify-content: space-around;
+}
+
+.widget__form__input {
+    width: 75%;
+    padding: 10px;
+    border-radius: $m-radius;
+    border: none;
+    background-color: $dustyGray;
+    outline: none;
+}
