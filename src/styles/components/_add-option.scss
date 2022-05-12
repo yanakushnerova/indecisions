@@ -1,15 +1,27 @@
 .widget__form {
     border-top: 1px solid $dustyGray;
-    padding: $s-size;
+    padding: $s-size $m-size;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
 }
 
 .widget__form__input {
-    width: 75%;
     padding: 10px;
+    flex-grow: 1;
     border-radius: $m-radius;
     border: none;
     background-color: $dustyGray;
     outline: none;
+    margin: 0 0 $s-size 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .widget__form {
+        flex-direction: row;
+    }
+
+    .widget__form__input {
+        margin: 0 $s-size 0 0;
+    }
 }
